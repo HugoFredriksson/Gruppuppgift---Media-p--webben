@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #page1 {
   background-color: mediumaquamarine;
   display: grid;
@@ -23,14 +24,14 @@
   width: 300px;
   height: 200px;
   border: 1px solid #ccc;
-  overflow: hidden;
+  overflow: hidden; /* Viktigt för att begränsa storleken på kontainern */
 }
 
 .image {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: right;
-     object-position: right;
+     object-fit: cover; /* Anpassa bilden för att täcka hela kontainern utan att förvränga den */
+  -o-object-position: center;
+     object-position: center; /* Centrera bilden inom kontainern */
 }/*# sourceMappingURL=style.css.map */
