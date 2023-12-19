@@ -11,9 +11,9 @@ function useCachedImage() {
 var audioController = document.getElementById("buttonAudio3")
 
 function playAudio() {
-    audioController.play();
+  audioController.play();
 }
 
 function pauseAudio() {
-    audioController.pause();
+  audioController.pause();
 }
